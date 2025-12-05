@@ -30,4 +30,7 @@ public class CheckOut_StepDefs {
         Assertions.assertEquals(ConfigurationReader.get("address"), checkOutPage.getBillingAddressText(), "Billing address mismatch");
     }
 
+
+
+
 }
