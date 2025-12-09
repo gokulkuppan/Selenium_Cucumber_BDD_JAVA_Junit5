@@ -4,6 +4,7 @@ import com.myProject.pages.SearchPage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
+import io.cucumber.java8.En;
 
 public class Search_StepDefs {
     SearchPage searchPage = new SearchPage();
