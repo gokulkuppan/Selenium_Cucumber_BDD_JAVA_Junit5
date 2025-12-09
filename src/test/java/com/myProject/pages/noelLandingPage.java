@@ -17,10 +17,7 @@ public class noelLandingPage extends BasePage {
     @FindBy(css = "#search-input")
     private WebElement searchBox_byCss;
 
-    @FindBy(name = "search-button")
-    private WebElement showAllResultsButton_byName;
-
-    @FindBy(xpath = "//button[@name='search-button']")
+    @FindBy(xpath = "//div[@class='suggestions-right-col']//button[@name='search-button']")
     private WebElement searchButton_byXpath;
 
     public void enterTextInSearchBox(String Keyword) {
@@ -36,7 +33,7 @@ public class noelLandingPage extends BasePage {
     }
 
     public void clickShowAllResultsButton() {
-        clickWithJS(searchButton_byXpath);
+        click(searchButton_byXpath);
     }
 
 }

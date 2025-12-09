@@ -22,7 +22,7 @@ public class noelLandingPage_StepDefs implements En {
         });
         Then("^Verify the (.*) product is displayed on search page$", (String keyword) -> {
             String ActualTitle = noelSearchResultPage.getSearchResultTitleFromSearchPage();
-            Assertions.assertEquals(keyword
+            Assertions.assertEquals("Search results for \""+keyword+"\""
                     , ActualTitle
                     , "Search result title does not match the searched product name");
         });
