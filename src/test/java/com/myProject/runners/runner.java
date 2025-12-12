@@ -17,7 +17,7 @@ import static io.cucumber.junit.platform.engine.Constants.EXECUTION_DRY_RUN_PROP
 @ConfigurationParameter(key = FEATURES_PROPERTY_NAME, value = "src/test/resources/features")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "json:target/cucumber.json, html:target/default-html-reports.html")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.myProject.stepDefinitions")
-@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@noel")
+@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@wareHouse")
 @ConfigurationParameter(key = EXECUTION_DRY_RUN_PROPERTY_NAME, value = "false")
 public class runner {
 }
